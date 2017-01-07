@@ -33,6 +33,8 @@ spider_man = media.Movie("Spider-Man",
 
 movies = [transcedence, middle_man, iron_man, iron_man_2, iron_man_3, spider_man]
 
+# The method open_movies_page uses list of movie instances as input to generate an HTML file
+# and open it in the browser.
 movie_trailer_website.open_movies_page(movies)
 
 
